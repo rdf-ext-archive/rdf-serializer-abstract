@@ -1,5 +1,5 @@
 {
-  "name": "rdf-parser-serializer",
+  "name": "rdf-serializer-abstract",
   "version": "0.1.0",
   "description": "Abstract base class for RDF Interface serializer implementations",
   "main": "index.js",
