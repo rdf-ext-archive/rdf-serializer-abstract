@@ -6,6 +6,7 @@ function AbstractSerializer (rdf) {
 }
 
 AbstractSerializer.prototype.stream = function (inputStream, base, filter) {
+  var self = this
   var outputStream = new AbstractSerializer.DataReadStream()
 
   AbstractSerializer.streamToGraph(inputStream, this.rdf.createGraph()).then(function (graph) {
