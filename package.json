@@ -1,10 +1,10 @@
 {
   "name": "rdf-serializer-abstract",
-  "version": "0.1.0",
+  "version": "0.3.0-rc1",
   "description": "Abstract base class for RDF Interface serializer implementations",
   "main": "index.js",
   "scripts": {
-    "test": "standard && echo \"Error: no test specified\" && exit 1"
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
