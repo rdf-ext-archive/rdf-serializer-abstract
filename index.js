@@ -1,4 +1,4 @@
-var util = require('util')
+var inherits = require('inherits')
 var Readable = require('stream').Readable
 
 function AbstractSerializer (rdf) {
@@ -53,6 +53,6 @@ AbstractSerializer.DataReadStream = function () {
   }
 }
 
-util.inherits(AbstractSerializer.DataReadStream, Readable)
+inherits(AbstractSerializer.DataReadStream, Readable)
 
 module.exports = AbstractSerializer
