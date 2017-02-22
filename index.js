@@ -1,5 +1,5 @@
 var inherits = require('inherits')
-var Readable = require('stream').Readable
+var Readable = require('readable-stream').Readable
 
 function AbstractSerializer (rdf) {
   this.rdf = rdf
